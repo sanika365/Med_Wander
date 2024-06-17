@@ -17,7 +17,7 @@ app.use(
 
 // Google Sheets API setup
 const auth = new google.auth.GoogleAuth({
-  keyFile: "./medwander.json", // Replace with your credentials file path
+  keyFile: "./medwander.json", 
   scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
@@ -26,7 +26,7 @@ app.post("/refresh-excel", async (req, res) => {
     const client = await auth.getClient();
     const sheets = google.sheets({ version: "v4", auth: client });
     const spreadsheetId = "1u4yjr1eu6DlvXhtJCkeSlqQs16IV9aeqWdt6ir_Sbss"; // Replace with your spreadsheet ID
-    const range = "Sheet1!A1"; // Adjust the range as needed
+    const range = "Sheet1!A1"; 
 
     const data = await FormData.findAll();
     const values = data.map((row) => [
