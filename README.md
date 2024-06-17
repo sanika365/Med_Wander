@@ -1,7 +1,9 @@
 Form Application
 Description
 MedWander is a web application that allows users to submit medical forms and updates an online Excel sheet with the submitted data. It utilizes React.js for the frontend and Node.js with Express.js for the backend.
+
 Installation
+
 Backend Setup
 1.Clone the repository:
      git clone https://github.com/Sanika365/Med_Wander.git
@@ -10,12 +12,10 @@ Backend Setup
 3.Install dependencies:
     npm install
 4.Set up the database:
-
 Ensure MySQL is installed and running.
 Create a MySQL database named medwander.
 Update database/config.js with your MySQL username and password.
-
- 5.Run migrations to create tables:
+5.Run migrations to create tables:
      npx sequelize-cli db:migrate
 6.start the backend server:The server will start at http://localhost:5000.
       npm start
