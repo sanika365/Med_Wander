@@ -8,7 +8,7 @@ Backend Setup
 1.Clone the repository:
      git clone https://github.com/Sanika365/Med_Wander.git
 2.Navigate to the backend directory:
-    cd backend
+    cd server
 3.Install dependencies:
     npm install
 4.Set up the database:
