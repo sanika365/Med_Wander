@@ -39,25 +39,25 @@ Frontend Setup
        
 Functionality Implemented
 
-The application displays two buttons labeled "Form A" and "Form B".
+1.The application displays two buttons labeled "Form A" and "Form B".
 
-Clicking on either button will display a form with input fields for Name, Country Code, and Phone Number.
+2.Clicking on either button will display a form with input fields for Name, Country Code, and Phone Number.
 
-The form header dynamically displays "Form A" or "Form B" based on the selected button.
+3.The form header dynamically displays "Form A" or "Form B" based on the selected button.
 
-Form Submission: Users can fill out medical forms (Form A or Form B) with their name, country code, and phone number. Validation ensures correct data formats.
+4.Form Submission: Users can fill out medical forms (Form A or Form B) with their name, country code, and phone number. Validation ensures correct data formats.
 
-After submitting the form, the data is stored in a SQL database.
+5.After submitting the form, the data is stored in a SQL database.
 
-A "Refresh" button is available on the interface, which updates an online Excel sheet with the new data from the SQL database when clicked.
+6.A "Refresh" button is available on the interface, which updates an online Excel sheet with the new data from the SQL database when clicked.
 
-Excel Sheet Update: Upon form submission, the backend updates an online Excel sheet with the submitted data using the Google Sheets API.
+7.Excel Sheet Update: Upon form submission, the backend updates an online Excel sheet with the submitted data using the Google Sheets API.
 
 Additonal features:
 
-Local Storage: Form data is saved locally using browser storage, allowing users to continue where they left off if they revisit the application.
+1.Local Storage: Form data is saved locally using browser storage, allowing users to continue where they left off if they revisit the application.
 
-The application is responsive and designed to work on both mobile and desktop devices.
+2.The application is responsive and designed to work on both mobile and desktop devices.
 
 
   
