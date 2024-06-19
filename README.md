@@ -5,18 +5,24 @@ MedWander is a web application that allows users to submit medical forms and upd
 Installation
 
 Backend Setup
+
 1.Clone the repository:
      git clone https://github.com/Sanika365/Med_Wander.git
+     
 2.Navigate to the backend directory:
     cd server
+    
 3.Install dependencies:
-    npm install
-4.Set up the database:
+ npm install
+ 
+ 4.Set up the database:
 Ensure MySQL is installed and running.
 Create a MySQL database named medwander.
-Update database/config.js with your MySQL username and password.
+Update database.js with your MySQL username and password.
+
 5.Run migrations to create tables:
      npx sequelize-cli db:migrate
+     
 6.start the backend server:The server will start at http://localhost:5000.
       npm start
       The server will start at http://localhost:5000.
